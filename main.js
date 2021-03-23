@@ -46,7 +46,7 @@ function uploadCar2(){
 window.addEventListener("keydown", my_keydown);
 
 function my_keydown(e){
-    keypressed= e.keycode;
+    keypressed= e.keyCode;
     console.log(keypressed);
     if(keypressed == "38"){
         upC1();
